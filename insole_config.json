@@ -1,0 +1,24 @@
+{
+    "bluetooth": {
+        "mac_address": "00:11:22:33:44:55",
+        "port": 1,
+        "auto_reconnect": true,
+        "reconnect_interval": 30
+    },
+    "monitoring": {
+        "update_interval": 5,
+        "temperature_threshold": 37.0,
+        "humidity_threshold": 60.0,
+        "pressure_threshold": 500,
+        "alert_sound": true
+    },
+    "simulation": {
+        "enabled": true,
+        "realistic_variation": true
+    },
+    "ui": {
+        "theme": "dark",
+        "graph_points": 20,
+        "auto_export": false
+    }
+}
